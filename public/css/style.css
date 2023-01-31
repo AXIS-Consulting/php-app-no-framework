@@ -1,0 +1,138 @@
+@import url(https://fonts.bunny.net/css?family=montserrat:200,200i,300,300i,400,400i,500,500i,700,700i,900,900i);
+@import url(https://fonts.bunny.net/css?family=nunito:200,200i,300,300i,400,400i,500,500i,700,700i,900,900i);
+
+*, *::before, *::after {
+    box-sizing: border-box !important;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-block-start: 0;
+    padding-block-end: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+}
+
+html {
+    font-family: "nunito", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #343434;
+    color: #F0F0F0;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:link, a:visited, a:active {
+    color: #99ccff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0099ff;
+    text-decoration: underline;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header, nav, main, aside, footer, section {
+    display: block;
+    margin: 0;
+    padding: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 1rem 0 0;
+    line-height: 1.3;
+}
+
+p {
+    font-size: 1rem;
+}
+
+nav {
+    background-color: #00000033;
+
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+nav > div {
+    padding: .25rem;
+}
+
+.menu {
+    text-align: right;
+}
+
+.menu a {
+    padding: .25rem;
+}
+
+header {
+    /*background-color: #ff000033;*/
+}
+
+main {
+    /*background-color: #ffff0033;*/
+}
+
+aside {
+    /*background-color: #00ff0033;*/
+}
+
+footer {
+    background-color: #00000033;
+    text-align: center;
+}
+
+button, a.btn {
+    padding: .5rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    display: inline-block;
+}
+
+.delete {
+    text-decoration: none;
+    background-color: #ff0000;
+    color: #F0F0F0 !important;
+    margin-top: 1rem;
+}
+
+.delete:hover {
+    background-color: #cc0000;
+    text-decoration: none;
+}
+
+.success {
+    text-decoration: none;
+    background-color: #009900;
+    color: #F0F0F0 !important;
+    margin-top: 1rem;
+}
+
+.success:hover {
+    background-color: #006600;
+    text-decoration: none;
+}
+.side-by-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.right-side {
+    text-align: right;
+}
